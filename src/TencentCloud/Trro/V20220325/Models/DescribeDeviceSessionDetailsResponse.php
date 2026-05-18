@@ -20,15 +20,15 @@ use TencentCloud\Common\AbstractModel;
 /**
  * DescribeDeviceSessionDetails返回参数结构体
  *
- * @method array getDetails() 获取按设备区分的会话详细数据
- * @method void setDetails(array $Details) 设置按设备区分的会话详细数据
+ * @method array getDetails() 获取<p>按设备区分的会话详细数据</p>
+ * @method void setDetails(array $Details) 设置<p>按设备区分的会话详细数据</p>
  * @method string getRequestId() 获取唯一请求 ID，由服务端生成，每次请求都会返回（若请求因其他原因未能抵达服务端，则该次请求不会获得 RequestId）。定位问题时需要提供该次请求的 RequestId。
  * @method void setRequestId(string $RequestId) 设置唯一请求 ID，由服务端生成，每次请求都会返回（若请求因其他原因未能抵达服务端，则该次请求不会获得 RequestId）。定位问题时需要提供该次请求的 RequestId。
  */
 class DescribeDeviceSessionDetailsResponse extends AbstractModel
 {
     /**
-     * @var array 按设备区分的会话详细数据
+     * @var array <p>按设备区分的会话详细数据</p>
      */
     public $Details;
 
@@ -38,7 +38,7 @@ class DescribeDeviceSessionDetailsResponse extends AbstractModel
     public $RequestId;
 
     /**
-     * @param array $Details 按设备区分的会话详细数据
+     * @param array $Details <p>按设备区分的会话详细数据</p>
      * @param string $RequestId 唯一请求 ID，由服务端生成，每次请求都会返回（若请求因其他原因未能抵达服务端，则该次请求不会获得 RequestId）。定位问题时需要提供该次请求的 RequestId。
      */
     function __construct()
